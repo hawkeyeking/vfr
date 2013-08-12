@@ -259,6 +259,7 @@ horiz_plane::~horiz_plane()
 {
 	return;
 }
+
 bool horiz_plane::calculate_effect(HIP &hip, double * out_force)
 {
 	bool contact = false;
