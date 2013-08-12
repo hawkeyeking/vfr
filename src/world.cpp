@@ -172,6 +172,7 @@ assistive_feature* haptic_world::create_golfcourse_env(int phase)
 		ROS_INFO("PEG phase \tp: %d \ttp:%d \t@:  (%f,\t%f,\t%f)",phase, trgnum, pegs[trgnum][0], pegs[trgnum][1] ,pegs[trgnum][2] );
 		targ = pegs[ trgnum ] - btVector3(0,0,0.08);
 	}
+
 	else
 	{
 		ROS_INFO("BLO phase \tp: %d \ttp:%d \t@:  (%f,\t%f,\t%f)",phase, trgnum, pegs[trgnum][0], pegs[trgnum][1] ,pegs[trgnum][2] );
