@@ -1,0 +1,5 @@
+int64 a
+---
+int64 pegnum
+float64[] x
+float64[] y

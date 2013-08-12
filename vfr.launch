@@ -1,0 +1,5 @@
+<launch>
+    <rosparam command="load" file="$(find vfr)/params/master_ip.yaml" />
+    <node name ="vfr" pkg="vfr" type="vfr" output="screen" />
+
+</launch>

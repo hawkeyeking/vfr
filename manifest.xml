@@ -1,0 +1,19 @@
+<package>
+  <description brief="vfr">
+
+     Virtual Fixture Renderer
+	Renders virtual fixtures based on a position input, and a constructive geometry method for combining sets of VFs.
+
+  </description>
+  <author>H. Hawkeye King, hawkeye1@uw.edu</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://brl.ee.washington.edu</url>
+  <depend package="std_msgs"/>
+  <depend package="roscpp"/>
+  <depend package="raven_2"/>
+  <depend package="fls_vision"/>
+
+</package>
+
+
